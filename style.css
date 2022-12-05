@@ -1,9 +1,18 @@
 body {
-    background-image: url("station.jpg");
+ background-image: url(https://static.theprint.in/wp-content/uploads/2022/03/rail2022031802511820220318031606.jpg); 
     background-size: cover;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-weight: bold;
     text-align: center;
+    height:100vh;
+    width:auto;
+}
+.container{
+    max-width: 20%;
+    margin: auto;
+    border:3px solid black;
+    border-radius: 15px;
+    background-color:blanchedalmond;
 }
 
 h1 {
@@ -23,7 +32,7 @@ button {
     padding-bottom: 10px;
     color: white;
     font-weight: bold;
-    width: 200px;
+    width: 170px;
     margin-bottom: 5px;
     border-radius: 5px;
 }
@@ -35,4 +44,6 @@ button {
 #save-btn {
     background: darkgreen;
 }
-
+#save-el{
+    font-weight: bold;
+}
